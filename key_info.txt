@@ -1,0 +1,11 @@
+=> HTML is a markup language widely used in web development.=> HTML (HyperText Markup Language) is used to structure and format the content of websites on the World Wide Web.
+
+=> HyperText is a way of organizing text that allows the reader to easily navigate and access related information.
+
+=> A markup language is a computer language that is used to add structure and formatting to a text document.
+
+=> HTML elements are hierarchical, which means that they can be nested inside each other to create a tree-like structure of the content on the web page. This hierarchical structure is called the DOM (Document Object Model).
+
+=> CSS (Cascading Style Sheets) is a stylesheet language. It is used to style HTML documents.
+
+=> JavaScript (JS) is a programming language that makes websites interactive and dynamic. It is primarily used in web browsers to create dropdown menus, form validation, interactive maps, and other elements on a website.
