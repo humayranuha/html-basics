@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <table border="1" style="border-collapse: collapse;">
+        <caption>Table with 'colspan'</caption>
+        <thead>
+            <tr>
+                <th>SL No.</th>
+                <th>Product</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mango</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table border="1" style="border-collapse: collapse;">
+        <caption>Table with rowspan</caption>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Mark Smith</td>
+            <td>English</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>91</td>
+        </tr>
+    </table>
+
+    <table border="1" style="border-collapse: collapse;">
+        <caption>Table with vertical header</caption>
+        <tr>
+            <th>Name</th>
+            <td>Sam</td>
+            <td>Steve</td>
+            <td>Peggy</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>31</td>
+            <td>42</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>M</td>
+            <td>M</td>
+            <td>F</td>
+        </tr>
+    </table>
+</body>
+
+</html>
